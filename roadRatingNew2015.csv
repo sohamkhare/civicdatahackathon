@@ -1,5 +1,5 @@
 block,streetName,streetType,stretTypeNum,streetDirection,overall,crack,patch,length,width,dateRated,dateLastOverlay,flushOil,flushOilNum,class,classnum,pavement,streetID,NumofYrs
-0,KINGSLEY,PL,1,,5,2,4,606,0,4/15/2016,,,1,Local,1,,12572861,0
+0,KINGSLEY,PL,1,,5,2,4,606,0,4/15/2016,1985,,1,Local,1,,12572861,31
 100,ABERDEEN,TER,2,,6,3,4,530,22,4/14/2016,1988,O,2,Local,1,3,12581174,28
 100,ACADEMY,PL,1,,6,4,2,588,28,4/15/2016,1985,O,2,Local,1,3,12576512,31
 100,ACADEMY,ST,3,,8,4,4,325,25,4/15/2016,1999,O,2,Local,1,3,12571714,17
