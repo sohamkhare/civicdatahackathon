@@ -12,7 +12,7 @@ ratings.rf <- randomForest(overall ~ streetType + crack + length + width + patch
                            + classnum + pavement + NumofYrs ,data=roadRatings2015)
 
 str(roadRatings2015)
-(importance(ratings.rf))
+(importance(ratings.rf))g
 summary(ratings.rf)
 
 summary(roadRatings2015)
