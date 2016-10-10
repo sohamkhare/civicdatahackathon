@@ -6,8 +6,8 @@ library(lubridate)
 roadRatings <- read.csv('//hd.ad.syr.edu/03/e1c9c9/Documents/civicdatahackathon/roadRatingAll.csv', na.strings=c("","NA"))
 roadRatings <- roadRatings[4866:77821,]
 roadRatings = NULL
-for (year in seq(from=2000, to=2014)) {
-  ratings <- read.csv(paste0("H:/civicdatahackathon/roadRatingNew", year, '.csv'), 
+for (year in seq(from=2000, to=2015)) {
+  ratings <- read.csv(paste0("C:/Users/SOHAM/Documents/civicdatahackathon/roadRatingNew", year, '.csv'), 
                       stringsAsFactors = FALSE)
   ratings$ratings_year <- year
   if (is.null(df)) {
@@ -51,6 +51,8 @@ str(roadRatings)
 summary(roadRatings)
 
 unique(roadRatings$overall)
+
+write.csv(x = roadRatings,file = "roadRatings00_15.csv")
 
 #ratings.rf <- randomForest(overall ~ stretTypeNum + crack  + patch + dateLastOverlay + flushOilNum
 #                           + classnum + pavement ,data=roadRatings)
